@@ -1,0 +1,9 @@
+import numpy as np
+
+def expected_value_discrete(x: list, p: list) -> float:
+    """
+    Returns the expected value as a Python float.
+    """
+    # Write code here
+    a=np.dot(x,p)
+    return float(a)
